@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Versailles Vistas</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <img src="logo.png" alt="Versailles Vistas Logo" id="logo">
+        <h1>Welcome to Versailles Vistas</h1>
+        <nav>
+            <ul>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section id="intro">
+            <h2>Transform Your Garden into a Masterpiece</h2>
+            <p>At Versailles Vistas, we bring the grandeur of Versailles to your home. Experience luxury garden design with our expert team.</p>
+        </section>
+        
+        <section id="services">
+            <h2>Our Services</h2>
+            <p>From classic French gardens to modern landscapes, we offer a range of services to fit your vision.</p>
+            <!-- List services here -->
+        </section>
+        
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <form action="submit_form.php" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                
+                <button type="submit">Send</button>
+            </form>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2023 Versailles Vistas</p>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
